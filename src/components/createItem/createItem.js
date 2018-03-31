@@ -1,5 +1,7 @@
-module.exports = {
-    data: {
-        text: ''
+export default {
+    data: function() {
+        return {
+            helloWorld: 'Hello World!'
+        }
     }
 };
