@@ -4,15 +4,20 @@ import VueRouter from 'vue-router';
 import axios from 'axios';
 
 import App from './app.vue';
-import CreateItem from './components/createItem/createItem.vue';
+import LandingComponent from './pages/landing/landing.vue';
+import PostComponent from './pages/post/post.vue';
 
 Vue.use(VueRouter);
 Vue.use(VueAxios, axios);
 
 const routes = [{
-    name: 'createItem',
+    name: 'landing',
     path: '/',
-    component: CreateItem
+    component: LandingComponent
+}, {
+    name: 'post',
+    path: '/post/:id',
+    component: PostComponent
 }];
 
 const router = new VueRouter({ mode: 'history', routes: routes});

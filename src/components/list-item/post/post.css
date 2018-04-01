@@ -1,0 +1,23 @@
+section {
+    width: 90%;
+    padding: 0 10px;
+    margin-left: 10px;
+}
+
+.title {
+    width: 100%;
+    padding: 5px 0 5px 5px;
+    text-align: left;
+    border-bottom: 1px solid grey;
+}
+
+button {
+    font-size: 15px;
+    background: transparent;
+    border: 0;
+}
+
+.body {
+    font-size: 10px;
+    padding: 5px 0;
+}
