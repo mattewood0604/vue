@@ -1,0 +1,31 @@
+.post,
+.comment {
+    display: table;
+    width: 95%;
+    padding: 15px;
+    margin-left: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.id {
+    display: table-cell;
+    vertical-align: middle;
+    width: 5%;
+    height: 100%;
+}
+
+.info {
+    width: 95%;
+}
+
+.title {
+    width: 100%;
+    padding: 5px 0 5px 5px;
+    text-align: left;
+    border-bottom: 1px solid lightgrey;
+}
+
+.body {
+    font-size: 10px;
+    padding: 5px 0;
+}

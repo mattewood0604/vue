@@ -15,6 +15,7 @@ export default {
         const id = this.$route.params.id;
         this.$http.get(`https://jsonplaceholder.typicode.com/posts/${id}/comments`).then((response) => {
             this.comments = response.data;
+            console.log(this.comments);
         }, (error) => {
             console.log(error);
         });
